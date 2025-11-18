@@ -258,6 +258,11 @@ section{
 
 body {
    background: url('../images/background.png');
+   margin: 0 auto;
+   padding: 0;
+   height: 100vh;
+   
+
 }
 
 .hero .slide{
@@ -281,6 +286,8 @@ body {
    border: #222 2px  solid;
    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
 }
+
+
 
 .hero .slide .content{
    flex:1 1 40rem;
@@ -937,6 +944,7 @@ body {
    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
    gap:1.5rem;
    align-items: flex-start;
+  
 }
 
 .footer .grid .box{

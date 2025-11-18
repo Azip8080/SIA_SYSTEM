@@ -30,7 +30,7 @@
 
    </section>
 
-   <div class="credit">&copy; Copyright @ <?= date('Y'); ?> by <span>Grill Thrill Burger</span> | all rights reserved!</div>
+   <div class="credit">&copy; Copyright @ <?= date('Y'); ?> by <span>Grow a Kitchen</span> | all rights reserved!</div>
 
 </footer>
 

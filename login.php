@@ -62,20 +62,9 @@ if(isset($_POST['submit'])){
 
 
 
-
-
-
-
-
-
-
 <?php include 'components/footer.php'; ?>
-
-
-
-
-
 <script src="js/script.js"></script>
 
 </body>
+
 </html>
