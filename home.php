@@ -95,22 +95,22 @@ include 'components/add_cart.php';
 
       <a href="category.php?category=fast food" class="box">
          <img src="images/cat-1.png" alt="">
-         <h3>Fast Food</h3>
+         <h3>Seeds</h3>
       </a>
 
       <a href="category.php?category=main dish" class="box">
          <img src="images/cat-2.png" alt="">
-         <h3>Main Dishes</h3>
+         <h3>Kitchen Appliances</h3>
       </a>
 
       <a href="category.php?category=drinks" class="box">
          <img src="images/cat-3.png" alt="">
-         <h3>Drinks</h3>
+         <h3>Kitchen Peripherals</h3>
       </a>
 
       <a href="category.php?category=desserts" class="box">
          <img src="images/cat-4.png" alt="">
-         <h3>Desserts</h3>
+         <h3>Deals</h3>
       </a>
 
    </div>
