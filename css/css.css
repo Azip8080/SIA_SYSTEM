@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 
 :root{
-   --yellow:#fed330;
+   --yellow:#818181;
    --red:#e74c3c;
    --white:#fff;
    --black:#222;
@@ -256,15 +256,14 @@ section{
    text-decoration: underline;
 }
 
-body {
+/* body {
    background: url('../images/background.png');
    margin: 0 auto;
    padding: 0;
    height: 100vh;
    
 
-}
-
+} */
 .hero .slide{
    display: flex;
    align-items: center;
