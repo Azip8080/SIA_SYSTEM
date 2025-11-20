@@ -34,14 +34,14 @@ include 'components/add_cart.php';
 
 
 <div class="heading">
-   <h3>Our Menu</h3>
+   <h3>Our Items</h3>
    <p><a href="home.php">HOME</a> <span> / MENU</span></p>
 </div>
 
 
 <section class="products">
 
-   <h1 class="title">LATEST DISH</h1>
+   <h1 class="title">LATEST ITEMS</h1>
 
    <div class="box-container">
 

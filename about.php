@@ -48,8 +48,8 @@ if(isset($_SESSION['user_id'])){
 
       <div class="content">
          <h3>Why Choose Us?</h3>
-         <p>Customers would eat at Grill Thrill Burger for the mouthwatering blend of premium ingredients and sizzling flavors that ignite the senses with every bite.</p>
-         <a href="menu.php" class="btn">Our Menu</a>
+         <p>At Grow A Kitchen, we bring together quality kitchen tools and premium seeds to help you grow and cook with ease. We offer durable products, fresh high-germination seeds, fast delivery, and a trusted shopping experience for home cooks and plant lovers. Everything you need for a greener, smarter kitchen—all in one place.</p>
+         <a href="menu.php" class="btn">Our Items</a>
       </div>
 
    </div>
@@ -65,8 +65,8 @@ if(isset($_SESSION['user_id'])){
 
       <div class="box">
          <img src="images/step-1.png" alt="">
-         <h3>Choose Order</h3>
-         <p>Choose different foods and click check out.</p>
+         <h3>Choose a Product</h3>
+         <p>Choose an item and click check out.</p>
       </div>
 
       <div class="box">
@@ -77,8 +77,8 @@ if(isset($_SESSION['user_id'])){
 
       <div class="box">
          <img src="images/step-3.png" alt="">
-         <h3>Enjoy Food</h3>
-         <p>And lastly enjoy our delicious foods!</p>
+         <h3>Receive Item</h3>
+         <p>And lastly recieve the item!</p>
       </div>
 
    </div>
@@ -97,7 +97,7 @@ if(isset($_SESSION['user_id'])){
 
          <div class="swiper-slide slide">
             <img src="images/allen.jpg" alt="">
-            <p>Grill Thrill Burger is fantastic! The mushroom Swiss burger was delicious, with juicy mushrooms and creamy Swiss cheese. The drinks are refreshing.</p>
+            <p>“Impressed with Grow A Kitchen! The basil and rosemary sprouted quickly, and the plants look so healthy. Perfect for anyone starting a small kitchen garden.</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -109,8 +109,8 @@ if(isset($_SESSION['user_id'])){
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/archer.jpg" alt="">
-            <p>Grill Thrill Burger is my new favorite! The Thrill Burger is packed with incredible flavors, and the sweet potato fries are a must-try.</p>
+            <img src="images/jmm.jpg" alt="">
+            <p>Really satisfied! The knives are sharp, balanced, and cut through vegetables effortlessly. Makes prep time so much easier.</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -118,12 +118,12 @@ if(isset($_SESSION['user_id'])){
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Archer Z.</h3>
+            <h3>Jan M.</h3>
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/paul.jpg" alt="">
-            <p>Grill Thrill Burger’s veggie burger is fantastic! It’s flavorful and perfectly grilled with fresh ingredients. The cozy atmosphere is a plus.</p>
+            <img src="images/jm.png" alt="">
+            <p>“I didn’t expect to love this pan as much as I do. The non-stick coating is truly impressive—nothing sticks, even when I’m frying eggs.And it's easy to clean</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -131,12 +131,12 @@ if(isset($_SESSION['user_id'])){
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Paul L.</h3>
+            <h3>Jm U.</h3>
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/anilov.jpg" alt="">
-            <p>Absolutely loved my meal at Grill Thrill Burger! The chicken burger was tender and flavorful, with a delightful crunch from the fresh veggies.</p>
+            <img src="images/jed.jpg" alt="">
+            <p>These chili seeds exceeded my expectations! They sprouted quickly, and the plants are already producing bright, healthy chilis. </p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -144,12 +144,12 @@ if(isset($_SESSION['user_id'])){
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Anilov P.</h3>
+            <h3>Jed T.</h3>
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/jordan.jpg" alt="">
-            <p>Grill Thrill Burger exceeded my expectations! The bacon cheeseburger was mouth-watering, with crispy bacon and melted cheese.</p>
+            <img src="images/nicholas.jpg" alt="">
+            <p>This cutting board looks and feels premium. It’s thick, sturdy, and doesn’t slide around while chopping. I love how natural and clean it looks on my countertop.</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -157,12 +157,12 @@ if(isset($_SESSION['user_id'])){
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Jordan C.</h3>
+            <h3>Nich L.</h3>
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/roland.jpg" alt="">
-            <p>Impressed with Grill Thrill Burger! The double cheeseburger was perfectly cooked, and the toppings were fresh and delicious. The atmosphere is great for a casual meal.</p>
+            <img src="images/bato.png" alt="">
+            <p>I’m so glad I bought this spice organizer—it instantly made my kitchen look more organized. It’s easy to rotate, fits all my spices, and saves a ton of counter space.</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -170,7 +170,7 @@ if(isset($_SESSION['user_id'])){
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Roland D.</h3>
+            <h3>Bato B.</h3>
          </div>
 
       </div>

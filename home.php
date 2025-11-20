@@ -49,7 +49,7 @@ include 'components/add_cart.php';
          <div class="swiper-slide slide">
             <div class="content">
                <span>Order Online</span>
-               <h3>Zesty Pepperoni Cheesemelt Pizza</h3>
+               <h3>Black Hanabishi Refrigerator</h3>
                <a href="menu.php" class="btn">See Menu</a>
             </div>
             <div class="image">
@@ -60,7 +60,7 @@ include 'components/add_cart.php';
          <div class="swiper-slide slide">
             <div class="content">
                <span>Order Online</span>
-               <h3>"Fromage Royale Burger Pizza"</h3>
+               <h3>Snesslinge Gas Stove</h3>
                <a href="menu.php" class="btn">See Menu</a>
             </div>
             <div class="image">
@@ -71,7 +71,7 @@ include 'components/add_cart.php';
          <div class="swiper-slide slide">
             <div class="content">
                <span>Order Online</span>
-               <h3>Golden Roast Chicken Delight</h3>
+               <h3>Snesslinge Gas Stove Top</h3>
                <a href="menu.php" class="btn">See Menu</a>
             </div>
             <div class="image">
@@ -89,7 +89,7 @@ include 'components/add_cart.php';
 
 <section class="category">
 
-   <h1 class="title">Food Category</h1>
+   <h1 class="title">Category</h1>
 
    <div class="box-container">
 
@@ -122,7 +122,7 @@ include 'components/add_cart.php';
 
 <section class="products">
 
-   <h1 class="title">Latest Dishes</h1>
+   <h1 class="title">Latest Items</h1>
 
    <div class="box-container">
 

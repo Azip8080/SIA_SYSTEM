@@ -5,8 +5,8 @@
       <div class="box">
          <img src="images/email-icon.png" alt="">
          <h3>Our Email</h3>
-         <a href="mailto:grill_thrill_burg@gmail.com">grill_thrill_burg@gmail.com</a>
-         <a href="mailto:grill_thrill_burg@gmail.com">grill_thrill_burg@gmail.com</a>
+         <a href="mailto:grill_thrill_burg@gmail.com">growakitchen@gmail.com</a>
+         <a href="mailto:grill_thrill_burg@gmail.com">growakitchen@gmail.com</a>
       </div>
 
       <div class="box">
