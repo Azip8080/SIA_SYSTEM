@@ -33,7 +33,7 @@ include 'components/add_cart.php';
 
 <section class="products">
 
-   <h1 class="title">Food Category</h1>
+   <h1 class="title">Item Category</h1>
 
    <div class="box-container">
 
