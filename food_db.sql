@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 20, 2024 at 01:37 PM
--- Server version: 10.4.28-MariaDB
--- PHP Version: 8.2.4
+-- Generation Time: Nov 21, 2025 at 09:35 AM
+-- Server version: 10.4.32-MariaDB
+-- PHP Version: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -56,13 +56,6 @@ CREATE TABLE `cart` (
   `image` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dumping data for table `cart`
---
-
-INSERT INTO `cart` (`id`, `user_id`, `pid`, `name`, `price`, `quantity`, `image`) VALUES
-(6, 2, 1, 'Burger', 15, 1, 'home-img-2.png');
-
 -- --------------------------------------------------------
 
 --
@@ -103,10 +96,7 @@ CREATE TABLE `orders` (
 --
 
 INSERT INTO `orders` (`id`, `user_id`, `name`, `number`, `email`, `method`, `address`, `total_products`, `total_price`, `placed_on`, `payment_status`) VALUES
-(1, 1, 'Christy De Guzman', '0920801452', 'christydeguzman22@yahoo.com', '', '13, 13, tondo, tondo, manila, manila, philippines - 1223', 'Burger (15 x 1) - ', 15, '2024-06-19', 'Out For Delivery'),
-(2, 1, 'Christy De Guzman', '0920801452', 'christydeguzman22@yahoo.com', '', '13, 13, tondo, tondo, manila, manila, philippines - 1223', 'Burger (15 x 2) - ', 30, '2024-06-19', 'Completed'),
-(3, 1, 'Christy De Guzman', '0920801452', 'christydeguzman22@yahoo.com', '', '13, 13, tondo, tondo, manila, manila, philippines - 1223', 'Burger (15 x 1) - ', 15, '2024-06-19', 'Out For Delivery'),
-(4, 1, 'Christy De Guzman', '0920801452', 'christydeguzman22@yahoo.com', 'Cash On Delivery', '13, 13, tondo, tondo, manila, manila, philippines - 1223', 'Burger (15 x 1) - ', 15, '2024-06-20', 'pending');
+(6, 5, 'Jm', '0934823753', 'jm@gmail.com', 'Cash On Delivery', '11212, 1231212, rotonda, manila, manila, metro manila, philippines - 12121', 'Dill Seed (150 x 10) - ', 1500, '2025-11-21', 'pending');
 
 -- --------------------------------------------------------
 
@@ -117,7 +107,7 @@ INSERT INTO `orders` (`id`, `user_id`, `name`, `number`, `email`, `method`, `add
 CREATE TABLE `products` (
   `id` int(100) NOT NULL,
   `name` varchar(100) NOT NULL,
-  `category` varchar(100) NOT NULL,
+  `category` enum('Seeds','Kitchen Appliances','Kitchen Peripherals','Deals') NOT NULL,
   `price` int(10) NOT NULL,
   `image` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -127,11 +117,11 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `name`, `category`, `price`, `image`) VALUES
-(1, 'Burger', 'fast food', 35, 'home-img-2.png'),
-(2, 'Orange Juice', 'drinks', 20, 'drink-1.png'),
-(3, 'Chocolate Cupcake', 'desserts', 25, 'dessert-4.png'),
-(4, 'Steak & Fries', 'main dish', 250, 'dish-5.png'),
-(5, 'Pepperoni Pizza', 'fast food', 200, 'pizza-3.png');
+(7, 'Dill Seed', 'Seeds', 150, 'dill.png'),
+(8, 'Tomato Seeds', 'Seeds', 150, 'tomato.png'),
+(9, 'Dine Sets', 'Deals', 500, 'dine set.png'),
+(10, 'Utensil Set', 'Deals', 350, 'utensil sets.png'),
+(11, 'Colander Set', 'Deals', 670, 'colander group.jpg');
 
 -- --------------------------------------------------------
 
@@ -154,9 +144,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `number`, `password`, `address`, `image`) VALUES
-(1, 'Christy De Guzman', 'christydeguzman22@yahoo.com', '0920801452', '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2', '13, 13, tondo, tondo, manila, manila, philippines - 1223', ''),
-(2, 'Kaye', 'chrstydgzmn355@gmail.com', '0929876423', '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2', '', '6673f6d9930fa8.00420313.jpg'),
-(3, 'tr6ur6ur', 'yrytyry@gmail.com', '0998765432', '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2', '', '');
+(4, 'Jm Asim', 'janmaykel@gmail.com', '0995595994', 'f7c3bc1d808e04732adf679965ccc34ca7ae3441', '123, 123, asjfaj, agassgas, afass, afafsa, 123 - 111', ''),
+(5, 'Jm', 'jm@gmail.com', '0934823753', '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2', '11212, 1231212, rotonda, manila, manila, metro manila, philippines - 12121', '');
 
 --
 -- Indexes for dumped tables
@@ -212,7 +201,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `cart`
 --
 ALTER TABLE `cart`
-  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `messages`
@@ -224,19 +213,19 @@ ALTER TABLE `messages`
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

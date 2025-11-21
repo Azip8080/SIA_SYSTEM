@@ -97,22 +97,27 @@ section{
    gap:1rem;
 }
 
-.message{
-   position: sticky;
-   top:0;
-   max-width: 1200px;
-   margin:0 auto;
-   background-color: var(--light-bg);
-   padding:2rem;
-   display: flex;
-   align-items: center;
-   gap:1rem;
-   justify-content: space-between;
+.message {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+
+  background: #222;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  max-width: 300px;
+  z-index: 9999; 
 }
+
 
 .message span{
    font-size: 2rem;
-   color:var(--black);
+   color:var(--white);
 }
 
 .message i{
