@@ -68,7 +68,7 @@ $fetch_product = $select_product->fetch(PDO::FETCH_ASSOC);
       }
 
       .quick-view .price {
-         font-size: 1.5rem;
+         font-size: 5rem;
          color: #c00;
       }
 
@@ -80,6 +80,10 @@ $fetch_product = $select_product->fetch(PDO::FETCH_ASSOC);
       .back-btn {
          margin: 2rem auto;
          text-align: center;
+      }
+
+      .details p{
+      font-size: 2rem;   
       }
    </style>
 
