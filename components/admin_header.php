@@ -21,7 +21,6 @@ if(isset($message)){
          <a href="dashboard.php">Home</a>
          <a href="products.php">Products</a>
          <a href="placed_orders.php">Orders</a>
-         <a href="admin_accounts.php">Admins</a>
          <a href="users_accounts.php">Users</a>
          <a href="messages.php">Messages</a>
       </nav>
@@ -39,10 +38,6 @@ if(isset($message)){
          ?>
          <p><?= $fetch_profile['name']; ?></p>
          <a href="update_profile.php" class="btn">Update Profile</a>
-         <div class="flex-btn">
-            <a href="admin_login.php" class="option-btn">Login</a>
-            <a href="register_admin.php" class="option-btn">Register</a>
-         </div>
          <a href="../components/admin_logout.php" onclick="return confirm('logout from this website?');" class="delete-btn">Logout</a>
       </div>
 
