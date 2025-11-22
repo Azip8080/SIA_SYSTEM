@@ -278,10 +278,11 @@ section{
    display: none;
 }
 
-.dashboard .box-container{
+.dashboard .box-container {
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-   gap:1.5rem;
+   grid-template-columns: repeat(3, minmax(0, 1fr)); /* 3 columns on large screens */
+   grid-auto-rows: auto; /* lets rows form naturally */
+   gap: 1.5rem;
    align-items: flex-start;
 }
 

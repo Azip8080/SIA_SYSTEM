@@ -45,11 +45,6 @@ if(!isset($admin_id)){
 
    <div class="box-container">
 
-   <div class="box">
-      <h3>Welcome!</h3>
-      <p><?= $fetch_profile['name']; ?></p>
-      <a href="update_profile.php" class="btn">Update Profile</a>
-   </div>
 
    <div class="box">
       <?php
