@@ -97,6 +97,13 @@ section{
    gap:1rem;
 }
 
+.navbar-admin{
+width : 180px;
+height: auto;
+margin-right: 10px;
+vertical-align: middle;
+}
+
 .message {
   position: fixed;
   top: 20px;
