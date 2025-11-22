@@ -97,6 +97,7 @@ section{
    gap:1rem;
 }
 
+
 .navbar-admin{
 width : 180px;
 height: auto;
@@ -232,11 +233,12 @@ vertical-align: middle;
 .header .flex .navbar a{
    margin:0 1rem;
    font-size: 2rem;
-   color:var(--light-color);
+   color:var(--light--black);
 }
 
 .header .flex .navbar a:hover{
-   color:var(--main-color);
+   color: grey;
+   text-decoration: underline;
 }
 
 .header .flex .icons > *{
